@@ -1,9 +1,12 @@
+/* STYLES FOR MY RESUME */
+
 BODY{
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
   color: #444
 }
 
+/* banner name at top */
 H1 {
   font-size: 3em;
   color: #33485e;
@@ -11,12 +14,14 @@ H1 {
   text-align: center;
 }
 
+/* changing name at top */
 strong {
   font-size:1.5em;
   text-transform: uppercase;
   color: #33485e
 }
 
+/* section titles */
 H2 {
   font-size: 1.5em;
   text-transform: uppercase;
@@ -24,20 +29,24 @@ H2 {
   color: #fff;
 }
 
+/* job titles */
 H3 {
   font-weight:600;
   font-size: 1.5em;
 }
 
+/* workplace title */
 H4 {
   font-size: 1.5em;
 }
 
+/* times at job */
 H5 {
   font-style: italic;
   font-size: 1em;
 }
 
+/* lists */
 UL {
   text-size: 1em;
 }
