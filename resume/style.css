@@ -23,19 +23,25 @@ BODY{
   margin: 0 auto;
 }
 
-/* changing name at top */
-strong {
+/* changing name at top, used to be strong now is title*/
+#title {
   font-size:1.5em;
   text-transform: uppercase;
-  color: #33485e
+  color: #33485e;
+  font weight: 600;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* section titles, used to be h2 */
 .sectionheader {
-  margin-bottom: 10 px;
-  margin-top: 20;
-  margin-left: 0 px;
-  margin-right: 0 px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
   width: 70%;
   min-width: 300px;
   font-size: 1.5em;
@@ -69,33 +75,65 @@ strong {
 .description {
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 0x;
+  margin-right: 0px;
   margin-left: 0px;
 }
 
 /* list for contact info */
 .menu {
-  text-size: 1em;
-  margin: 0px;
+  margin: 0 auto;
   padding: 0px;
   text-align: center;
   display: inline;
+  list-style-type: none;
 }
 
+.menu li {
+  display: inline;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px;
+}
+
+/* list for education  */
 #degrees {
-
+  text-size: 1em;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
-/* lists */
+/* list for skills  */
+#do{
+  text-size: 1em;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+
+
+
+/* lists
 UL {
   text-size: 1em;
 }
+*/
 
-/*
-a tool box:
+/* a tool box:
 
 margin-top: 0px;
 margin-bottom: 0px;
-margin-right: 0x;
+margin-right: 0px;
 margin-left: 0px;
+
  */
