@@ -50,13 +50,17 @@ strong {
   font-size: 1.5em;
 }
 
-/* workplace title */
-H4 {
-  font-size: 1.5em;
+/* workplace title, h4 */
+.organization {
+  font-size: 1.25em;
 }
 
-/* times at job */
-H5 {
+/* times at job, h5 */
+.date {
+  margin-top: 2px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
   font-style: italic;
   font-size: 1em;
 }
