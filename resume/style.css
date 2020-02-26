@@ -2,7 +2,7 @@
 BODY{
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
-  color: #444
+  color: #444;
 }
 
 #container {
@@ -84,15 +84,11 @@ BODY{
   margin: 0 auto;
   padding: 0px;
   text-align: center;
-  display: inline;
-  list-style-type: none;
 }
 
 .menu li {
   display: inline;
-  margin: 0 auto;
-  text-align: center;
-  padding: 0px;
+  list-style-type: none;
 }
 
 /* list for education  */
