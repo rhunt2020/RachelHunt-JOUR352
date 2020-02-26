@@ -65,7 +65,37 @@ strong {
   font-size: 1em;
 }
 
+/* used to be <p> */
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0x;
+  margin-left: 0px;
+}
+
+/* list for contact info */
+.menu {
+  text-size: 1em;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  display: inline;
+}
+
+#degrees {
+
+}
+
 /* lists */
 UL {
   text-size: 1em;
 }
+
+/*
+a tool box:
+
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 0x;
+margin-left: 0px;
+ */
