@@ -1,17 +1,26 @@
 /* STYLES FOR MY RESUME */
-
 BODY{
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
   color: #444
 }
 
-/* banner name at top */
-H1 {
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin:  0 auto;
+}
+
+/* banner name at top, used to be h1 */
+#name {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 /* changing name at top */
@@ -21,16 +30,22 @@ strong {
   color: #33485e
 }
 
-/* section titles */
-H2 {
+/* section titles, used to be h2 */
+.sectionheader {
+  margin-bottom: 10 px;
+  margin-top: 20;
+  margin-left: 0 px;
+  margin-right: 0 px;
+  width: 70%;
+  min-width: 300px;
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
 }
 
-/* job titles */
-H3 {
+/* job titles, used to be h3 */
+.jobtitles {
   font-weight:600;
   font-size: 1.5em;
 }
