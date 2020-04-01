@@ -24,6 +24,11 @@ H3 {
   font-size: 20px;
 }
 
+H5 {
+  font-family: Verdana;
+  font-size: 13px;
+}
+
 #byline {
   font-family: Verdana;
   font-size: 15px;
@@ -32,12 +37,38 @@ H3 {
 
 #container {
   width: 100%;
-  max-width: 1200px;
-  margin:  0 auto;
+  min-width: 500px;
+  max-width: 900px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+}
+/* also wrong
+#boxmodelish {
+  width: 300px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+}
+*/
+
+.specs {
+  column-count: 1;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-.pullquote {
-  color: #B22222;
+blockquote {
+  font-family: Verdana;
+  text-align: right;
+  font-size: 22px;
   font-style: italic;
-  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: orange;
+  margin-right:50px;
+  padding-right: 15px;
+  border-right: 4px solid #ccc;
 }
