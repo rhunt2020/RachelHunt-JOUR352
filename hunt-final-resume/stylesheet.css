@@ -12,7 +12,9 @@ BODY{
 #container {
   width: 100%;
   max-width: 1200px;
-  margin:  0 auto;
+  margin:  3 auto;
+  padding: 3px;
+  text-align: center;
 }
 
 /* banner name at top, used to be h1 */
@@ -48,7 +50,7 @@ BODY{
   margin-right: 0px;
   width: 70%;
   min-width: 300px;
-  font-size: 1.5em;
+  font-size: 12px;
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
@@ -62,7 +64,7 @@ BODY{
 
 /* workplace title, h4 */
 .organization {
-  font-size: 1.25em;
+  font-size: 12pxem;
 }
 
 /* times at job, h5 */
@@ -95,7 +97,7 @@ BODY{
 }
 
 #degrees {
-  text-size: 1em;
+  text-size:12px;
   margin-top: 5px;
   margin-bottom: 0px;
   margin-right: 0px;
@@ -103,7 +105,7 @@ BODY{
 }
 
 #do{
-  text-size: 1em;
+  text-size: 12px;
   margin-top: 5px;
   margin-bottom: 0px;
   margin-right: 0px;
