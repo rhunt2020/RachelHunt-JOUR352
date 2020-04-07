@@ -1,0 +1,154 @@
+/* STYLES FOR MY RESUME */
+font {
+  font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  display: block;
+  margin-before: 1px;
+  margin-after: 1px;
+  margin-start: auto;
+  margin-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 2px;
+  color: #E5E7E9;
+}
+
+.banner {
+  display: block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* BODY{
+  font-family: 'Times New Roman', serif;
+  font-size: 14px;
+} */
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-style: italic;
+}
+
+p {
+  font-family: 'Times New Roman', serif;
+}
+
+.ahhh {
+  width: 100%;
+  max-width: 1500px;
+  margin-top:  3;
+  margin-bottom: 3;
+  margin-left: 4;
+  margin-right: 4;
+  padding: 3px;
+  text-align: center;
+}
+
+.leftspecs {
+text-align: right;
+}
+
+.imgleftspecs {
+  display: block;
+  align-content: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jobtitlesl {
+  text-align: right;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight:0,700;
+  color: #626567;
+}
+
+.organizationl {
+  text-align: right;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.datel {
+  text-align: right;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: italic;
+  color: gray;
+}
+
+.descriptionl {
+  text-align: right;
+  font-family: 'Times New Roman', serif;
+  font-size: 15px;
+}
+
+.rightspecs {
+text-align: left;
+}
+
+.imgrightspecs {
+  display: block;
+  align-content: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jobtitlesr {
+  text-align: left;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight:0,700;
+  color: #626567;
+}
+
+.organizationr {
+  text-align: left;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.dater {
+  text-align: left;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: italic;
+  color: gray;
+}
+
+.descriptionr {
+  text-align: left;
+  font-family: 'Times New Roman', serif;
+  font-size: 15px;
+}
+
+.school {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.degree {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.location {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.grad {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: gray;
+}
