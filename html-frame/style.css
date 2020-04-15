@@ -1,0 +1,17 @@
+.bg
+
+#boxmodel {
+width: 300px;
+border: 15px white;
+padding: 50px;
+margin: 20px;
+}
+
+p {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 12px;
+}
+
+.caption {
+  font-size: 10px;
+}
