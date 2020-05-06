@@ -1,0 +1,55 @@
+.bg
+
+#boxmodel {
+width: 300px;
+border: 30px white;
+padding: 80px;
+margin: 40px;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 35px;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+}
+
+h4 {
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+}
+
+h5 {
+  font-family: 'Anton', sans-serif;
+  font-size: 15px;
+}
+
+p {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 15px;
+}
+
+.caption {
+  font-size: 10px;
+  text-align: center;
+}
+
+footer {
+  display: block;
+  font-size: 5px;
+}
+
+img {
+  display: block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
