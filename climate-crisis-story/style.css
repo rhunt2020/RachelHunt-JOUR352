@@ -17,6 +17,10 @@ h2 {
   font-size: 30px;
 }
 
+.lead {
+  font-size:30px;
+}
+
 h3 {
   font-family: 'Anton', sans-serif;
   font-size: 25px;
@@ -53,3 +57,41 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+li {
+font-family: 'Times New Roman', sans-serif;
+font-weight: 800;
+font-size: 15px;
+}
+
+.card {
+  display: inline-block;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.caption {
+  font-size: 10px;
+  text-align: left;
+}
+
+#header {
+  text-align: right;
+}
+
+
+
+a {
+  text-decoration: underline;
+  color: #BA4A00;
+}
+a:hover {
+  text-decoration: none;
+  color: #F5B041;
+}
+a:visited {
+  text-decoration: underline;
+  color: #F1C40F;
+  }
