@@ -61,7 +61,7 @@ img {
 li {
 font-family: 'Times New Roman', sans-serif;
 font-weight: 800;
-font-size: 15px;
+font-size: 17px;
 }
 
 .card {
@@ -73,14 +73,65 @@ font-size: 15px;
 }
 
 .caption {
-  font-size: 10px;
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 12px;
   text-align: left;
+}
+
+.infog {
+  font-family: 'Anton', sans-serif;
+  color: #FF6703
 }
 
 #header {
   text-align: right;
 }
 
+.pquote {
+    float: right;
+    width: 200px;
+    color: #030;
+    font-size: 26px;
+    line-height: 0.9;
+    font-style: italic;
+    padding: 13px;
+}
+
+.float {
+  float: left;
+  margin: 0;
+  padding: 13px;
+  object-position: left;
+}
+
+blockquote {
+    margin: 0;
+}
+
+.pquote {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: #BA4A00;
+    line-height: 1;
+    padding: 13px;
+    float: right;
+}
+
+#right {
+  float: right;
+}
+
+.pquote p:first-of-type {
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #BA4A00;
+}
+
+.footer {
+  font-size: 8px;
+
+}
 
 
 a {
